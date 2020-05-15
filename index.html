@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha256-m/h/cUDAhf6/iBRixTbuc8+Rg2cIETQtPcH9D3p2Kg0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="ipes.png" type="image/png">
+</head>
+<body>
+    <div class="login-w">
+        <form action="" class="form" method="POST"> 
+            <!-- method post for not showing the user info in url -->
+            <h2>Login</h2><br>
+            <div class="input-group">
+                <span class="oi oi-people"></span>
+                <input type="text" name="loginusr" id="loginusr" required>
+                <label for="loginusr">Username</label>
+            </div>
+            <div class="input-group">
+                <span class="oi oi-lock-locked"></span>
+                <input type="password" name="loginp" id="loginp" required>
+                <label for="loginp">Password</label>
+            </div>
+            <div class="rem">
+                <input type="checkbox" name="reme" id="rem"><t>Remember me</t>
+            </div>
+            <br>
+            <input type="submit" value="LOGIN" class="sub"><br>
+            <a href="#" class="forp" onclick="not()">Forgot Password?</a>
+            <br>
+            <a href="newacct.html" class="forp">New account,Sign up!!</a>
+        </form>
+    </div>
+</body>
+<script>
+    function not()
+    {
+        alert("Didn't create this page yet!");
+    }
+</script>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-w">
+        <form action="" class="form" method="POST"> 
+            <!-- method post for not showing the user info in url -->
+            <h2>Sign up</h2><br>
+            <div class="input-group">
+                <input type="email" name="loginusr" id="loginusr" required>
+                <label for="loginusr">Email ID:</label>
+                
+            </div>
+            <div class="input-group">
+                <input type="password" name="loginp" id="loginp" required>
+                <label for="loginp">Password</label>
+            </div>
+            <a href = "index.html" style="text-decoration: none;"><input type="button" value="SUBMIT" onclick="done()" class="sub"></a>
+</body>
+<script>
+    function done()
+    {
+        alert("Done!! Log in on!!");
+    }
+</script>
+</html>
